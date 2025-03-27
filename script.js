@@ -1,3 +1,4 @@
 export function logMessage() {
-    console.log("Test");
+    // just return a string
+    return "Hello World!";
 }
