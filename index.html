@@ -1,6 +1,8 @@
 <script type="module">
     import { logMessage } from "https://raw.githubusercontent.com/SiemensHalske/something.github.io/main/script.js";
     logMessage();
+    const btn = document.getElementById("hello-btn");
+    btn.addEventListener("click", () => logMessage());
 </script>
 
-"Hello World"
+<button id="hello-btn">Hello World!</button>
