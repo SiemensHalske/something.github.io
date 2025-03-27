@@ -6,3 +6,15 @@
 </script>
 
 <button id="hello-btn">Hello World!</button>
+
+
+<!-- animated version number using js-->
+
+<script>
+    const version = "1.0.0";
+    const versionElement = document.getElementById("version");
+    versionElement.textContent = version;
+    setInterval(() => {
+        versionElement.textContent = versionElement.textContent === version ? `${version} 🎉` : version;
+    }, 1000);
+</script>
